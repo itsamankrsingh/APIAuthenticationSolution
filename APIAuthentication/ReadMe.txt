@@ -5,3 +5,4 @@
 5.) Scaffold-DbContext "Server=localhost;Database=NetCoreAuthentication;user=sa;password=sa@123" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models ( run this command in package manager console to add existing db to this project)
 6.) Cretat Folder Utils and Class Common.cs in it.
 7.) Create Post method in RegisterController.cs
+8.) Add LoginController.cs
