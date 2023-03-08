@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:padding="8dp"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -22,41 +22,34 @@
             android:paddingRight="16dp"
             android:paddingBottom="30dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/new_account"
+                android:textSize="22sp" />
+
             <EditText
-                android:id="@+id/edt_username"
+                android:id="@+id/edt_new_account_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/username" />
 
             <EditText
-                android:id="@+id/edt_password"
+                android:id="@+id/edt_new_account_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
                 android:inputType="textPassword" />
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_sign_up"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/login" />
+                android:text="@string/sign_up" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/or"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/txt_create_account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/create_an_account"
-                android:textSize="22sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AndroidClient</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="or">--------OR--------</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_account">New Account</string>
+    <!-- Strings used for fragments for navigation -->
+
 </resources>
